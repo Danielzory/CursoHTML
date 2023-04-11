@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            display: inline-block;
+            background-color: aqua;
+            text-align: center;
+            width: 250px;
+            height: 250px;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 2px 2px 1px 5px rgba(35, 36, 36, 0.403);
+        }
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 500;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover{
+            background-color: blueviolet;
+            width: 260px;
+            height: 260px;
+            border-radius: 25px;
+        }
+        div:hover > p{
+            display: block;
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1">01
+        <p>Dream</p>
+    </div>
+    <div id="d2">02
+        <p>Until Your dreams</p>
+    </div>
+    <div id="d3">03
+        <p>come true!</p>
+    </div>
+
+    
+</body>
+</html>

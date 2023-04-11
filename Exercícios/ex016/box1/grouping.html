@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(16, 16, 17);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: auto;
+        }
+        header{
+            background-color: white;
+            height: 100px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: gray;
+            padding: 2px;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.465);                       
+        }
+        nav > a{
+            display: inline;
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(28, 55, 55);
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            border-radius: 0px 18px;
+            height: 250px;
+            box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.491);
+        }
+        section {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 230px;
+            font-weight: bold;
+        }
+        section > article{
+            background-color: lightgray;
+            font-weight: 400;
+            margin: 8px;
+        }
+        article > aside{
+            background-color: gray;
+            font-style: italic;
+        }
+        footer{
+            background-color: black;
+            color: red;
+            text-align: center;
+            padding: 4px;
+            margin-top: 10px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>              
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Esportes e lazer</h2>
+            <article>
+                <h1>VoleyBall no Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio, optio, ullam eligendi itaque praesentium aspernatur fugit exercitationem expedita pariatur velit! Sapiente odio iste consequatur nobis eaque soluta ipsa sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam id non unde, explicabo illo ipsum saepe quis, doloribus deserunt distinctio atque aut cumque temporibus? Aliquid consequuntur dolor iusto aperiam quis.</p>
+                <aside>Escrito por um cara aí</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Montado e atualizado por Daniel</p>
+    </footer>
+    
+</body>
+</html>
