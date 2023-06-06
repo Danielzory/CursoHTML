@@ -49,8 +49,8 @@ a:hover{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
@@ -70,7 +70,7 @@ section.img > p{
     background-color: rgba(8, 8, 8, 0.347);
     display: inline-block;
     border-radius: 5px;
-    padding: 3px;
+    padding: 4px;
     text-shadow: 1px 2px 0px black;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.389);
 }
