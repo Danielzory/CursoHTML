@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes favoritos</title>
+    <style>
+        body{
+            background-color: beige;
+            font-family: cursive;
+            font-size: calc(5px + 1.3vh);
+        }
+
+        caption{
+            background-color: gray;
+            font-size: calc(6px + 1.4vh);
+            font-weight: bold;
+            border: 1px solid black;
+            box-shadow: 0px 0px 5px black;
+            cursor: pointer;
+        }
+        
+         table{
+            border-collapse: collapse;
+            width: 65vh;
+            box-shadow: 0px 0px 5px black;
+        }
+        tr, td, th{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        th{
+            background-color: gray;
+            color: whitesmoke;
+            border: 2px solid black;
+            cursor: pointer;
+        }  
+        
+    </style>
+</head>
+<body>
+    <h1>Filmes Favoritos</h1>
+    
+    <table>
+        <caption>Filmes vavoritos dos clientes</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatríz Souza</td>
+                <td>Hulk</td>
+                <td>Divergente</td>
+                <td>A Cabana</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Dear Jhon</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Daniel Batista</td>
+                <td>Ultimato</td>
+                <td>O Segredo</td>
+                <td>Gente Grande</td>
+            </tr>
+            <tr>
+                <td>Bruno Mendonça</td>
+                <td>Gladiador</td>
+                <td>Tróia</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Fabio Mota</td>
+                <td>Mamamia</td>
+                <td>A Múmia</td>
+                <td>Star Wars 3</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
